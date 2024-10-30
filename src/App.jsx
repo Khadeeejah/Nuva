@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import KeyFeatures from './components/KeyFeatures';
 import { OurTeam } from './components/OurTeam';
 import Spotlight from './components/Spotlight';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
     <HeroSection />
     <KeyFeatures />
     <Spotlight />
+    <Footer />
     </>
   );
 };
