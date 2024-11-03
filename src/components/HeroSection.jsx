@@ -19,44 +19,35 @@ const HeroSection = () => {
       }}
     >
       <h1 
-  className="font-semibold text-white text-center tracking-widen" 
-  style={{
-    fontSize: "50px",
-    fontWeight: "700",
-    lineHeight: "50px",
-    textAlign: "center",
-    width: "100%",
-    maxWidth: "900px",
-    height: "auto",
-    opacity: "1", 
-  }}
->
-  Get Your Personalised
-</h1>
-<span 
-  className="font-semibold text-white text-center" 
-  style={{
-    fontSize: "50px",
-    fontWeight: "700",
-    lineHeight: "50px",
-    textAlign: "center",
-    width: "100%",
-    maxWidth: "900px",
-    height: "auto",
-    opacity: "1", 
-  }}
->
-  Takaful Insurance Plans
-</span>
-
-
-
-
+        className="font-semibold text-white text-center tracking-wider text-3xl md:text-4xl lg:text-5xl" 
+        style={{
+          fontWeight: "700",
+          lineHeight: "50px", 
+          width: "100%",
+          maxWidth: "900px",
+          height: "auto",
+          opacity: "1", 
+        }}
+      >
+        Get Your Personalised
+      </h1>
+      <span 
+        className="font-semibold text-white text-center tracking-wider text-3xl md:text-4xl lg:text-5xl" 
+        style={{
+          fontWeight: "700",
+          lineHeight: "50px",
+          width: "100%",
+          maxWidth: "900px",
+          height: "auto",
+          opacity: "1", 
+        }}
+      >
+        Takaful Insurance Plans
+      </span>
       
       <p
-        className="text-white"
+        className="text-white text-base md:text-lg"
         style={{
-          fontSize: "20px",
           fontWeight: "400",
           lineHeight: "30px",
           textAlign: "center",
@@ -78,7 +69,7 @@ const HeroSection = () => {
         style={{
           width: "220px",
           height: "237px",
-          padding: "23px 17px 23px 17px",
+          padding: "23px 17px",
           gap: "10px",
           opacity: "0px",
         }}
@@ -93,7 +84,7 @@ const HeroSection = () => {
               <img className="h-4 mr-2" src={home} alt="Home" />
               <span>Home</span>
             </div>
-            <span className="text-black mt-2 text-l lg:text-lg">
+            <span className="text-black mt-2 text-lg lg:text-lg">
               QIIC Home Insurance
             </span>
             <span className="text-black mt-3 text-xs lg:text-s font-light leading-relaxed">
@@ -110,7 +101,7 @@ const HeroSection = () => {
               <img className="h-4 mr-2" src={health} alt="Health" />
               <span>Health</span>
             </div>
-            <span className="text-black mt-2 text-l lg:text-lg">
+            <span className="text-black mt-2 text-lg lg:text-lg">
               General Takaful Health Insurance
             </span>
             <span className="text-black mt-3 text-xs lg:text-s font-light leading-relaxed">
@@ -120,7 +111,7 @@ const HeroSection = () => {
 
           {/* Image Section */}
           <img 
-            className="mr-2" 
+            className="mr-2 hidden md:flex" 
             src={image} 
             alt="image" 
             style={{ borderRadius: "16px 16px 0px 0px", marginTop: "30px", height: "250px", width: "auto" }}
@@ -135,7 +126,7 @@ const HeroSection = () => {
               <img className="h-4 mr-2" src={motor} alt="Motor" />
               <span>Motor</span>
             </div>
-            <span className="text-black mt-2 text-l lg:text-lg">
+            <span className="text-black mt-2 text-lg lg:text-lg">
               Al Khaleej Motor Insurance
             </span>
             <span className="text-black mt-3 text-xs lg:text-s font-light leading-relaxed">
@@ -152,7 +143,7 @@ const HeroSection = () => {
               <img className="h-4 mr-2" src={travel} alt="Travel" />
               <span>Travel</span>
             </div>
-            <span className="text-black mt-2 text-l lg:text-lg">
+            <span className="text-black mt-2 text-lg lg:text-lg">
               BEEMA Travel Insurance
             </span>
             <span className="text-black mt-3 text-xs lg:text-s font-light leading-relaxed">
