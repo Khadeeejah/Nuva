@@ -18,14 +18,43 @@ const HeroSection = () => {
         opacity: "1",
       }}
     >
-      <h1 className="text-xl sm:text-1m lg:text-5xl font-semibold text-white text-center tracking-wide">
-        Get Your Personalised
-      </h1>
-      <h1 className="text-xl sm:text-1m lg:text-5xl font-semibold text-white text-center tracking-wide">
-        Takaful Insurance Plans
-      </h1>
+      <h1 
+  className="font-semibold text-white text-center tracking-widen" 
+  style={{
+    fontSize: "50px",
+    fontWeight: "700",
+    lineHeight: "50px",
+    textAlign: "center",
+    width: "100%",
+    maxWidth: "900px",
+    height: "auto",
+    opacity: "1", 
+  }}
+>
+  Get Your Personalised
+</h1>
+<span 
+  className="font-semibold text-white text-center" 
+  style={{
+    fontSize: "50px",
+    fontWeight: "700",
+    lineHeight: "50px",
+    textAlign: "center",
+    width: "100%",
+    maxWidth: "900px",
+    height: "auto",
+    opacity: "1", 
+  }}
+>
+  Takaful Insurance Plans
+</span>
+
+
+
+
+      
       <p
-        className="text-white mt-4 text-xl sm:text-1m lg:text-5xl"
+        className="text-white"
         style={{
           fontSize: "20px",
           fontWeight: "400",
@@ -55,9 +84,9 @@ const HeroSection = () => {
         }}
       >
         <div className="flex space-x-4 justify-center">
-          {/* Home Section - Hidden on Mobile */}
+          {/* Home Section - Hidden on small screens */}
           <div
-            className="hidden sm:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
+            className="hidden md:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }}
           >
             <div className="flex items-center mb-2">
@@ -72,6 +101,7 @@ const HeroSection = () => {
             </span>
           </div>
 
+          {/* Health Section */}
           <div
             className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#D7B400] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
@@ -88,6 +118,7 @@ const HeroSection = () => {
             </span>
           </div>
 
+          {/* Image Section */}
           <img 
             className="mr-2" 
             src={image} 
@@ -95,6 +126,7 @@ const HeroSection = () => {
             style={{ borderRadius: "16px 16px 0px 0px", marginTop: "30px", height: "250px", width: "auto" }}
           />
 
+          {/* Motor Section */}
           <div
             className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#851CEE] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
@@ -111,9 +143,9 @@ const HeroSection = () => {
             </span>
           </div>
 
-          {/* Travel Section - Hidden on Mobile */}
+          {/* Travel Section - Hidden on small screens */}
           <div
-            className="hidden sm:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
+            className="hidden md:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
           >
             <div className="flex items-center mb-2">
