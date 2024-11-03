@@ -55,8 +55,9 @@ const HeroSection = () => {
         }}
       >
         <div className="flex space-x-4 justify-center">
+          {/* Home Section - Hidden on Mobile */}
           <div
-            className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
+            className="hidden sm:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }}
           >
             <div className="flex items-center mb-2">
@@ -110,8 +111,9 @@ const HeroSection = () => {
             </span>
           </div>
 
+          {/* Travel Section - Hidden on Mobile */}
           <div
-            className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
+            className="hidden sm:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
           >
             <div className="flex items-center mb-2">
