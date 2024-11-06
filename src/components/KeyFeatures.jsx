@@ -284,6 +284,7 @@ const KeyFeatures = () => {
         borderRadius: "8px",
         padding: "16px 20px",
         width: "100%",
+        maxWidth: "414px",
         height: "100%",
         maxHeight: "113px",
         gap: "8px",
@@ -332,7 +333,7 @@ const KeyFeatures = () => {
         padding: "16px 20px",
         width: "100%",
         maxWidth: "414px",
-        height: "59px",
+        height: "100%",
         marginTop: "16px",
         gap: "8px",
       }}
@@ -349,7 +350,7 @@ const KeyFeatures = () => {
             opacity: "1",
             width: "100%",
             maxWidth: "300px",
-            height: "27px",
+            height: "35px",
             gap: "16px",
           }}
         >
