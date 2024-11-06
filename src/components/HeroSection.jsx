@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"; 
 import image from "../assets/image.png";
 import vector from "../assets/vector.png";
 import home from "../assets/home.png";
@@ -77,7 +77,7 @@ const HeroSection = () => {
         <div className="flex space-x-4 justify-center">
           {/* Home Section - Hidden on small screens */}
           <div
-            className="hidden md:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
+            className="hidden lg:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#12BF3D] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }}
           >
             <div className="flex items-center mb-2">
@@ -92,9 +92,9 @@ const HeroSection = () => {
             </span>
           </div>
 
-          {/* Health Section */}
+          {/* Health Section - Hidden on small screens */}
           <div
-            className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#D7B400] font-semibold text-left"
+            className="hidden lg:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#D7B400] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
           >
             <div className="flex items-center mb-2">
@@ -109,17 +109,17 @@ const HeroSection = () => {
             </span>
           </div>
 
-          {/* Image Section */}
+          {/* Image Section - Hidden on small screens */}
           <img 
-            className="mr-2 hidden md:flex" 
+            className="hidden lg:flex mr-2" 
             src={image} 
             alt="image" 
             style={{ borderRadius: "16px 16px 0px 0px", marginTop: "30px", height: "250px", width: "auto" }}
           />
 
-          {/* Motor Section */}
+          {/* Motor Section - Hidden on small screens */}
           <div
-            className="flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#851CEE] font-semibold text-left"
+            className="hidden lg:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#851CEE] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
           >
             <div className="flex items-center mb-2">
@@ -136,7 +136,7 @@ const HeroSection = () => {
 
           {/* Travel Section - Hidden on small screens */}
           <div
-            className="hidden md:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
+            className="hidden lg:flex flex-col items-start py-4 px-6 bg-[#FFFFFF] text-[#1C89EE] font-semibold text-left"
             style={{ borderRadius: "16px", width: "280px", height: "280px", marginTop: "70px" }} 
           >
             <div className="flex items-center mb-2">

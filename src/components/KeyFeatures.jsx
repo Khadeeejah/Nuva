@@ -320,7 +320,7 @@ const KeyFeatures = () => {
             textAlign: "left",
             opacity: "1",
             width: "100%",
-            maxWidth: "250px", // Adjusted for smaller screens
+            maxWidth: "300px", // Adjusted for smaller screens
             height: "27px",
             gap: "16px",
           }}
