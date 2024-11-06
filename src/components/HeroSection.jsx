@@ -24,7 +24,6 @@ const HeroSection = () => {
           fontWeight: "700",
           lineHeight: "50px", 
           width: "100%",
-          maxWidth: "700px",
           height: "auto",
           opacity: "1", 
         }}
@@ -37,7 +36,6 @@ const HeroSection = () => {
           fontWeight: "700",
           lineHeight: "50px",
           width: "100%",
-          maxWidth: "700px",
           height: "auto",
           opacity: "1", 
         }}
@@ -51,7 +49,6 @@ const HeroSection = () => {
           fontWeight: "400",
           lineHeight: "30px",
           textAlign: "center",
-          width: "458px",
           height: "60px",
           opacity: "1", 
         }}
