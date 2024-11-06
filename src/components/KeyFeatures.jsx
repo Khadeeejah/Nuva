@@ -76,43 +76,74 @@ const KeyFeatures = () => {
       </motion.div>
 
       <motion.div
-        className="flex flex-col md:flex-row items-start py-4 px-6 bg-[#F7FAFB] text-[#000000] font-semibold text-left rounded-lg mt-10 md:mt-20 max-w-full"
-        style={{ borderRadius: "20px", padding: "40px", width: "100%", maxWidth: "955px", height: "100%", minHeight: "380px", marginTop: "100px" }}
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={slideInVariants}
-      >
-        <div className="flex flex-col mb-4 md:mb-0 md:mr-4 flex-1">
-          <div className="flex items-center mb-2">
-            <img className="h-16 w-16 mr-2" src={ai} alt="Home" style={{ width: "64px", height: "64px", gap: "16px" }} />
-          </div>
-          <span className="text-black mt-2 leading-relaxed text-xl md:text-2xl" style={{
-            fontSize: "24px",
-            fontWeight: "500",
-            lineHeight: "28.8px",
-            textAlign: "left",
-            width: "100%", 
-            minWidth:"323px",
-            height: "58px",
-            opacity: "1", 
-          }}>
-            Your unique needs, our AI delivers
-          </span>
-          <span className="text-black leading-relaxed text-lg" style={{
-            fontSize: "18px",
-            fontWeight: "400",
-            lineHeight: "27px",
-            textAlign: "left",
-            width: "100%",  
-            height: "81px",
-            opacity: "1", 
-          }}>
-            Our AI analyzes your requirements and finds the best policy that matches your needs.
-          </span>
-        </div>
-        <img className="ml-0 md:ml-4 w-full md:w-1/3 h-auto" src={signup} alt="signup" style={{ height: "100%", maxHeight:"300px", width: "100%", maxWidth: "390px", marginTop: "10px", flexShrink: 0 }}/>
-      </motion.div>
+  className="flex flex-col lg:flex-row items-start py-4 px-6 bg-[#F7FAFB] text-[#000000] font-semibold text-left rounded-lg mt-10 lg:mt-20 max-w-full"
+  style={{
+    borderRadius: "20px",
+    padding: "40px",
+    width: "100%",
+    maxWidth: "955px",
+    height: "100%",
+    minHeight: "380px",
+    marginTop: "100px",
+  }}
+  initial="hidden"
+  whileInView="visible"
+  viewport={{ once: true }}
+  variants={slideInVariants}
+>
+  <div className="flex flex-col mb-4 lg:mb-0 lg:mr-4 flex-1">
+    <div className="flex items-center mb-2">
+      <img
+        className="h-16 w-16 mr-2"
+        src={ai}
+        alt="Home"
+        style={{ width: "64px", height: "64px", gap: "16px" }}
+      />
+    </div>
+    <span
+      className="text-black mt-2 leading-relaxed text-xl lg:text-2xl"
+      style={{
+        fontSize: "24px",
+        fontWeight: "500",
+        lineHeight: "28.8px",
+        textAlign: "left",
+        width: "100%",
+        minWidth: "323px",
+        height: "58px",
+        opacity: "1",
+      }}
+    >
+      Your unique needs, our AI delivers
+    </span>
+    <span
+      className="text-black leading-relaxed text-lg"
+      style={{
+        fontSize: "18px",
+        fontWeight: "400",
+        lineHeight: "27px",
+        textAlign: "left",
+        width: "100%",
+        height: "81px",
+        opacity: "1",
+      }}
+    >
+      Our AI analyzes your requirements and finds the best policy that matches your needs.
+    </span>
+  </div>
+  <img
+    className="w-full lg:w-1/3 h-auto mt-4 lg:mt-0" // Responsive stacking for smaller screens
+    src={signup}
+    alt="signup"
+    style={{
+      height: "100%",
+      maxHeight: "300px",
+      width: "100%",
+      maxWidth: "390px",
+      flexShrink: 0,
+    }}
+  />
+</motion.div>
+
       
       <motion.div className="flex flex-col md:flex-row max-w-full" style={{ gap: "20px" }}
       initial="hidden"
@@ -204,7 +235,7 @@ const KeyFeatures = () => {
       </motion.div>
 
       <motion.div
-  className="flex flex-col md:flex-row items-start py-4 px-6 bg-[#323132] text-[#FFFFFF] font-semibold text-left rounded-lg mt-10 md:mt-20 max-w-full"
+  className="flex flex-col lg:flex-row items-start py-4 px-6 bg-[#323132] text-[#FFFFFF] font-semibold text-left rounded-lg mt-10 lg:mt-20 max-w-full"
   style={{
     borderRadius: "20px",
     padding: "40px",
@@ -215,13 +246,13 @@ const KeyFeatures = () => {
     marginTop: "70px",
   }}
   initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true }}
-        variants={slideInVariants}
+  whileInView="visible"
+  viewport={{ once: true }}
+  variants={slideInVariants}
 >
-  <div className="flex flex-col mb-4 md:mb-0 md:mr-4 flex-1">
+  <div className="flex flex-col mb-4 lg:mb-0 lg:mr-4 flex-1">
     <span
-      className="text-white mt-4 leading-relaxed text-2xl md:text-3xl"
+      className="text-white mt-4 leading-relaxed text-2xl lg:text-3xl"
       style={{
         fontSize: "35px",
         fontWeight: "500",
@@ -235,7 +266,7 @@ const KeyFeatures = () => {
       How Amanah works?
     </span>
     <span
-      className="text-white mt-3 text-lg md:text-xl"
+      className="text-white mt-3 text-lg lg:text-xl"
       style={{
         fontSize: "18px",
         fontWeight: "400",
@@ -250,7 +281,7 @@ const KeyFeatures = () => {
     </span>
 
     <div
-      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-6 max-w-sm w-full md:max-w-xs"
+      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-6 max-w-sm w-full lg:max-w-xs"
       style={{
         borderRadius: "8px",
         padding: "16px 20px",
@@ -264,7 +295,7 @@ const KeyFeatures = () => {
       <div className="flex items-center gap-2">
         <img src={person} alt="person" />
         <span
-          className="text-lg md:text-xl font-bold"
+          className="text-lg lg:text-xl font-bold"
           style={{
             fontSize: "18px",
             fontWeight: "700",
@@ -272,7 +303,7 @@ const KeyFeatures = () => {
             textAlign: "left",
             opacity: "1",
             width: "100%",
-            minWidth: "250px", // Adjusted for smaller screens
+            minWidth: "250px",
             height: "27px",
             gap: "16px",
           }}
@@ -289,7 +320,7 @@ const KeyFeatures = () => {
           textAlign: "left",
           opacity: "1",
           width: "100%",
-          minWidth: "250px", // Adjusted for smaller screens
+          minWidth: "250px",
           height: "69px",
         }}
       >
@@ -298,7 +329,7 @@ const KeyFeatures = () => {
     </div>
 
     <div
-      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-4 max-w-sm w-full md:max-w-xs"
+      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-4 max-w-sm w-full lg:max-w-xs"
       style={{
         borderRadius: "8px",
         padding: "16px 20px",
@@ -312,7 +343,7 @@ const KeyFeatures = () => {
       <div className="flex items-center gap-2">
         <img src={education} alt="education" />
         <span
-          className="text-lg md:text-xl font-bold"
+          className="text-lg lg:text-xl font-bold"
           style={{
             fontSize: "18px",
             fontWeight: "700",
@@ -320,7 +351,7 @@ const KeyFeatures = () => {
             textAlign: "left",
             opacity: "1",
             width: "100%",
-            maxWidth: "300px", // Adjusted for smaller screens
+            maxWidth: "300px",
             height: "27px",
             gap: "16px",
           }}
@@ -331,7 +362,7 @@ const KeyFeatures = () => {
     </div>
 
     <div
-      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-4 max-w-sm w-full md:max-w-xs"
+      className="flex flex-col bg-[#F4F4F4] text-[#323132] font-semibold text-left rounded-lg p-4 mt-4 max-w-sm w-full lg:max-w-xs"
       style={{
         borderRadius: "8px",
         padding: "16px 20px",
@@ -345,7 +376,7 @@ const KeyFeatures = () => {
       <div className="flex items-center gap-2">
         <img src={peace} alt="peace" />
         <span
-          className="text-lg md:text-xl font-bold"
+          className="text-lg lg:text-xl font-bold"
           style={{
             fontSize: "18px",
             fontWeight: "700",
@@ -353,7 +384,7 @@ const KeyFeatures = () => {
             textAlign: "left",
             opacity: "1",
             width: "100%",
-            maxWidth: "250px", // Adjusted for smaller screens
+            maxWidth: "250px",
             height: "27px",
             gap: "16px",
           }}
@@ -365,7 +396,7 @@ const KeyFeatures = () => {
   </div>
 
   <img
-    className="ml-0 md:ml-4 w-full md:w-1/3 h-auto mt-4 md:mt-0" // Responsive margin for mobile
+    className="ml-0 lg:ml-4 w-full lg:w-1/3 h-auto mt-4 lg:mt-0"
     src={amanahmockup}
     alt="amanahmockup"
     style={{
@@ -379,6 +410,7 @@ const KeyFeatures = () => {
     }}
   />
 </motion.div>
+
 
 
       <motion.div className="text-center mt-10 md:mt-20"
