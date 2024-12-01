@@ -12,7 +12,7 @@ const Hero = () => {
             Discover and manage seamless coverage with top providers and
             tailored personalized plans—all at your fingertips.
           </p>
-          <button className="px-8 py-2 mx-auto flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 lg:font-semibold lg:px-12 lg:py-2.5 xl:hover:bg-primary-200">
+          <button className="px-8 py-2 mx-auto flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 lg:px-12 lg:py-2.5 xl:hover:bg-primary-200">
             Get Started
           </button>
         </div>
