@@ -5,10 +5,10 @@ import Mail from "../assets/svgs/Mail";
 
 const Footer = () => {
   return (
-    <div className="px-4 py-6 flex flex-col items-center md:px-10 md:flex-row md:justify-between lg:px-20 lg:py-10 xl:px-[7.5rem]">
+    <div className="px-4 py-6 flex flex-col shadow-md items-center md:px-10 md:flex-row md:justify-between lg:px-20 lg:py-10 xl:px-[7.5rem]">
       <div className="mb-20 md:mb-0">
         <img src={logo} alt="Amanah Logo" />
-        <p className="hidden text-neutral-100 md:pt-4 md:block lg:text-sm">
+        <p className="hidden font-extralight text-neutral-200 md:pt-4 md:block lg:text-sm">
           Amanah. All Rights Reserved © 2024
         </p>
       </div>
@@ -36,8 +36,7 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-
-      <p className="text-xs text-neutral-100 pt-16 md:hidden">
+      <p className="text-xs font-extralight text-neutral-200 pt-16 md:hidden">
         Amanah. All Rights Reserved © 2024
       </p>
     </div>

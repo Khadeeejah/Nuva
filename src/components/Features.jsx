@@ -4,16 +4,17 @@ import ELearning from "../assets/svgs/ELearning";
 
 const Features = () => {
   return (
-    <div className="px-4 py-20 md:px-10 lg:px-20 lg:py-32 xl:px-[7.5rem]">
+    <div
+      id="features"
+      className="px-4 py-20 md:px-10 lg:px-20 lg:py-32 xl:px-[7.5rem]"
+    >
       <div className="grid gap-6 lg:gap-8">
         <div className="px-3 py-1 bg-primary-200 w-fit rounded-lg mx-auto">
           <p className="text-xs text-black-100 lg:text-sm">What We Offer</p>
         </div>
-        {/* <div className="px-3 py-1 bg-black-200 border border-black-300 w-fit rounded-lg mx-auto">
-          <p className="text-xs text-neutral-300 lg:text-sm">What We Offer</p>
-        </div> */}
-        <h3 className="text-[1.75rem] font-medium text-center leading-8 md:w-3/5 md:mx-auto lg:text-[2rem] xl:w-2/5">
-          Takaful insurance, re-engineered for a better experience
+        <h3 className="text-[1.75rem] font-semibold text-center leading-10 md:w-3/5 md:mx-auto lg:text-[2rem]">
+          <span className="block">Takaful insurance, </span>
+          <span className="block">re-engineered for a better experience</span>
         </h3>
       </div>
       <div className="mt-16 grid lg:grid-cols-3 lg:mt-20">

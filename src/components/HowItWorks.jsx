@@ -3,12 +3,15 @@ import signUp from "../assets/images/sign-up.png";
 
 const HowItWorks = () => {
   return (
-    <div className="px-4 py-20 md:px-10 lg:px-28 lg:py-32 xl:px-48">
+    <div
+      id="how-it-works"
+      className="px-4 py-20 md:px-10 lg:px-28 lg:py-32 xl:px-48"
+    >
       <div className="grid gap-6 lg:gap-8">
         <div className="px-3 py-1 bg-primary-200 w-fit rounded-lg mx-auto">
           <p className="text-xs text-black-100 lg:text-sm">How it Works</p>
         </div>
-        <h3 className="text-[1.75rem] font-medium text-center leading-8 md:w-3/5 md:mx-auto lg:text-[2rem] xl:w-2/5">
+        <h3 className="text-[1.75rem] font-semibold text-center leading-8 md:w-3/5 md:mx-auto lg:text-[2rem] xl:w-2/5">
           Start in 3 easy steps
         </h3>
       </div>
