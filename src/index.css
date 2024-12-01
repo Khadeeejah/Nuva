@@ -10,6 +10,7 @@
     font-family: "Urbanist", serif;
     font-optical-sizing: auto;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   body {
     @apply bg-black-50 text-neutral-50 font-light;
