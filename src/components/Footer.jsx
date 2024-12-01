@@ -5,7 +5,7 @@ import Mail from "../assets/svgs/Mail";
 
 const Footer = () => {
   return (
-    <div className="px-4 py-6 flex flex-col shadow-md items-center md:px-10 md:flex-row md:justify-between lg:px-20 lg:py-10 xl:px-[7.5rem]">
+    <div className="px-4 py-6 flex flex-col border-black-200 border-t shadow-md items-center md:px-10 md:flex-row md:justify-between lg:px-20 lg:py-10 xl:px-[7.5rem]">
       <div className="mb-20 md:mb-0">
         <img src={logo} alt="Amanah Logo" />
         <p className="hidden font-extralight text-neutral-200 md:pt-4 md:block lg:text-sm">
