@@ -48,7 +48,7 @@ const Navigation = () => {
           <div className="pt-6 flex flex-col justify-between">
             <ul className="pt-10 grid gap-8">
               {navLinks?.map(({ route, name }) => (
-                <li key={name}>
+                <li key={name} onClick={() => setOpen(false)}>
                   <a href={route} className="text-2xl">
                     {name}
                   </a>
