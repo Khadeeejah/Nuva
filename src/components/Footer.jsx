@@ -1,4 +1,4 @@
-import logo from "../assets/amanahwhite.png";
+import logo from "../assets/logo.svg";
 import Phone from "../assets/svgs/Phone";
 import Twitter from "../assets/svgs/Twitter";
 import Mail from "../assets/svgs/Mail";
