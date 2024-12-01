@@ -26,7 +26,7 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="px-4 py-6 sticky top-0 left-0 w-full bg-black-50 flex justify-between items-start shadow-sm md:px-10 lg:px-20 lg:items-center xl:px-[7.5rem]">
+    <div className="px-4 py-6 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-start backdrop-blur-md shadow-sm md:px-10 lg:px-20 lg:items-center xl:px-[7.5rem]">
       <div className="w-fit">
         <img src={logo} alt="Amanah Logo" className="w-3/5 lg:w-4/5" />
       </div>
@@ -38,8 +38,8 @@ const Navigation = () => {
           <Menu />
         </button>
         <div
-          className={`pl-12 pr-6 py-6 bg-black-50 h-screen w-full absolute top-0 left-0 z-20 transition-transform ${
-            open ? "-translate-x-0" : "-translate-x-[500px]"
+          className={`pl-12 pr-6 py-6 bg-black-50 h-screen w-full absolute top-0 left-0 z-20 transition-transform md:w-1/2 lg:hidden ${
+            open ? "-translate-x-0" : "-translate-x-[1000px]"
           }`}
         >
           <button onClick={() => setOpen(false)} className="flex ml-auto">
