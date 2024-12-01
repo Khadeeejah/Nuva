@@ -38,14 +38,14 @@ const Navigation = () => {
           <Menu />
         </button>
         <div
-          className={`pl-12 pr-6 py-6 bg-black-50 h-screen w-full absolute top-0 left-0 z-20 transition-transform md:w-1/2 lg:hidden ${
+          className={`pl-12 pr-6 py-6 bg-black-50 h-screen shadow-xl w-full absolute top-0 left-0 z-20 transition-transform duration-700 md:w-1/2 lg:hidden ${
             open ? "-translate-x-0" : "-translate-x-[1000px]"
           }`}
         >
           <button onClick={() => setOpen(false)} className="flex ml-auto">
             <Close className="w-8 h-8" />
           </button>
-          <div className="pt-6 flex flex-col justify-between">
+          <div className="pt-6 pr-6 flex flex-col justify-between">
             <ul className="pt-10 grid gap-8">
               {navLinks?.map(({ route, name }) => (
                 <li key={name} onClick={() => setOpen(false)}>
@@ -55,7 +55,7 @@ const Navigation = () => {
                 </li>
               ))}
             </ul>
-            <button className="w-full px-6 py-3 text-black-50 font-semibold bg-primary-100 cursor-pointer rounded-lg mt-32 mr-6 text-lg">
+            <button className="w-full px-6 py-3 text-black-50 font-semibold bg-primary-100 cursor-pointer rounded-lg mt-24 text-lg">
               Get Started
             </button>
           </div>
