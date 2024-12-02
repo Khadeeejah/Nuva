@@ -29,10 +29,10 @@ const Footer = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#features">Features</a>
           </li>
         </ul>
       </div>
