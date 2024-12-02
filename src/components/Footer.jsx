@@ -1,4 +1,4 @@
-import logo from "../assets/amanahwhite.png";
+import logo from "../assets/logo.svg";
 import Phone from "../assets/svgs/Phone";
 import Twitter from "../assets/svgs/Twitter";
 import Mail from "../assets/svgs/Mail";
@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="mb-20 md:mb-0">
         <img src={logo} alt="Amanah Logo" />
         <p className="hidden font-extralight text-neutral-200 md:pt-4 md:block lg:text-sm">
-          Amanah. All Rights Reserved © 2024
+          nنva. All Rights Reserved © 2024
         </p>
       </div>
       <div className="grid gap-4 place-content-center">
@@ -29,15 +29,15 @@ const Footer = () => {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </li>
           <li>
-            <a href="#">Features</a>
+            <a href="#features">Features</a>
           </li>
         </ul>
       </div>
       <p className="text-xs font-extralight text-neutral-200 pt-16 md:hidden">
-        Nuva. All Rights Reserved © 2024
+        nنva. All Rights Reserved © 2024
       </p>
     </div>
   );
