@@ -47,7 +47,7 @@ const HowItWorks = () => {
               Step 01
             </p>
             <div>
-              <h4 className="text-xl font-medium">Create Account</h4>
+              <h4 className="text-xl font-medium">Request for a Demo</h4>
               <p className="text-neutral-200 pt-1">
                 Get started instantly with a free account and explore your
                 options.
@@ -60,9 +60,7 @@ const HowItWorks = () => {
             </p>
             <div>
               <h4 className="text-xl font-medium">Customize Your Coverage</h4>
-              <p className="text-neutral-200 pt-1">
-                Choose from a range of Takaful insurance plans and personalize
-                your coverage to fit your needs.
+              <p className="text-neutral-200 pt-1">Utilize our blockchain and AI-driven features 
               </p>
             </div>
           </div>

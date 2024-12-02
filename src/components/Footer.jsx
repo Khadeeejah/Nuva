@@ -37,7 +37,7 @@ const Footer = () => {
         </ul>
       </div>
       <p className="text-xs font-extralight text-neutral-200 pt-16 md:hidden">
-        Amanah. All Rights Reserved © 2024
+        Nuva. All Rights Reserved © 2024
       </p>
     </div>
   );

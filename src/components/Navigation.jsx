@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/amanahwhite.png";
+import logo from "../assets/logo.png";
 import Menu from "../assets/svgs/Menu";
 import Close from "../assets/svgs/Close";
 

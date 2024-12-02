@@ -13,8 +13,7 @@ const Features = () => {
           <p className="text-xs text-black-100 lg:text-sm">What We Offer</p>
         </div>
         <h3 className="text-[1.75rem] font-semibold text-center leading-10 md:w-3/5 md:mx-auto lg:text-[2rem]">
-          <span className="block">Takaful insurance, </span>
-          <span className="block">re-engineered for a better experience</span>
+          <span className="block"> Our Solution at a glance </span>
         </h3>
       </div>
       <div className="mt-16 grid lg:grid-cols-3 lg:mt-20">
@@ -22,11 +21,11 @@ const Features = () => {
           <AIDriven className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-              Personalized Insurance, AI-Driven
+            Compliance Driven Digital Identity verification
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Our AI analyzes and processes claims with smart contracts while
-              providing chatbot assistance.
+            Utilize DLT and smart contracts to verify identities, automate compliance checks, and enhance security, 
+            safeguarding user privacy during validation and regulatory audits.
             </p>
           </div>
         </div>
@@ -34,11 +33,11 @@ const Features = () => {
           <Buildings className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-              Top Providers, One App
+            Automated Claims Processing
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Access the best Takaful Insurance providers with just a
-              tap—convenience and choice at your fingertips.
+            Self-service Claims, AI-powered verification, automated assesment, smart contract payment abd real-time
+            updates streamling the claim process.
             </p>
           </div>
         </div>
@@ -46,11 +45,47 @@ const Features = () => {
           <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-              Learn Takaful Insurance, easily
+            AI-Powered WhatsApp Chatbot
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Learn how Takaful Insurance works with our quick and
-              easy-to-understan educational resources.
+            Simplify policy management and sales with our multilingual chatbot. Easily browse options, get personalized quotes, apply, make payments, 
+            and receive digital policy documents directly via email—all through WhatsApp..
+            </p>
+          </div>
+        </div>
+        <div className="p-6 grid gap-4">
+          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
+          <div>
+            <h4 className="text-lg font-medium xl:text-xl">
+              Fractional Ownership of Policies
+            </h4>
+            <p className="text-neutral-200 lg:pt-2">
+            Participants can own fractions of policies, contributing to pools and sharing in coverage and surplus, 
+            while earning rewards for long-term ownership and community participation.
+            </p>
+          </div>
+        </div>
+        <div className="p-6 grid gap-4">
+          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
+          <div>
+            <h4 className="text-lg font-medium xl:text-xl">
+              Educational Resources
+            </h4>
+            <p className="text-neutral-200 lg:pt-2">
+             Learn about blockchain technology and artificial intelligence relating to insurance via 
+             webiners, blog post and workshops
+            </p>
+          </div>
+        </div>
+        <div className="p-6 grid gap-4">
+          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
+          <div>
+            <h4 className="text-lg font-medium xl:text-xl">
+            Gamified Dynamic Risk Scoring
+            </h4>
+            <p className="text-neutral-200 lg:pt-2">
+            Dynamically adjust risk scores based on user behavior and market conditions while rewarding 
+            risk reduction and community contributions
             </p>
           </div>
         </div>
