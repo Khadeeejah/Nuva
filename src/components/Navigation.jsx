@@ -26,9 +26,9 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="px-4 py-6 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-start backdrop-blur-md shadow-sm md:px-10 lg:px-20 lg:items-center xl:px-[7.5rem]">
-      <div className="w-fit">
-        <img src={logo} alt="Amanah Logo" className="w-3/5 lg:w-4/5" />
+    <div className="px-4 pb-6 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-end backdrop-blur-md shadow-sm md:px-10 md:pt-4 lg:pt-6 lg:px-20 lg:items-center xl:px-[7.5rem]">
+      <div className="w-fit xl:-mt-3.5">
+        <img src={logo} alt="Amanah Logo" className="w-4/5 lg:w-full" />
       </div>
       <div>
         <button

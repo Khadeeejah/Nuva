@@ -21,11 +21,12 @@ const Features = () => {
           <AIDriven className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-            Compliance Driven Digital Identity verification
+              Compliance Driven Digital Identity Verification
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-            Utilize DLT and smart contracts to verify identities, automate compliance checks, and enhance security, 
-            safeguarding user privacy during validation and regulatory audits.
+              Utilize DLT and smart contracts to verify identities, automate
+              compliance checks, and enhance security, safeguarding user privacy
+              during validation and regulatory audits.
             </p>
           </div>
         </div>
@@ -33,11 +34,12 @@ const Features = () => {
           <Buildings className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-            Automated Claims Processing
+              Automated Claims Processing
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-            Self-service Claims, AI-powered verification, automated assesment, smart contract payment abd real-time
-            updates streamling the claim process.
+              Self-service Claims, AI-powered verification, automated assesment,
+              smart contract payment abd real-time updates streamling the claim
+              process.
             </p>
           </div>
         </div>
@@ -45,11 +47,13 @@ const Features = () => {
           <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-            AI-Powered WhatsApp Chatbot
+              AI-Powered WhatsApp Chatbot
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-            Simplify policy management and sales with our multilingual chatbot. Easily browse options, get personalized quotes, apply, make payments, 
-            and receive digital policy documents directly via email—all through WhatsApp..
+              Simplify policy management and sales with our multilingual
+              chatbot. Easily browse options, get personalized quotes, apply,
+              make payments, and receive digital policy documents directly via
+              email—all through WhatsApp..
             </p>
           </div>
         </div>
@@ -60,8 +64,9 @@ const Features = () => {
               Fractional Ownership of Policies
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-            Participants can own fractions of policies, contributing to pools and sharing in coverage and surplus, 
-            while earning rewards for long-term ownership and community participation.
+              Participants can own fractions of policies, contributing to pools
+              and sharing in coverage and surplus, while earning rewards for
+              long-term ownership and community participation.
             </p>
           </div>
         </div>
@@ -72,8 +77,8 @@ const Features = () => {
               Educational Resources
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-             Learn about blockchain technology and artificial intelligence relating to insurance via 
-             webiners, blog post and workshops
+              Learn about blockchain technology and artificial intelligence
+              relating to insurance via webiners, blog post and workshops
             </p>
           </div>
         </div>
@@ -81,11 +86,12 @@ const Features = () => {
           <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
           <div>
             <h4 className="text-lg font-medium xl:text-xl">
-            Gamified Dynamic Risk Scoring
+              Gamified Dynamic Risk Scoring
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-            Dynamically adjust risk scores based on user behavior and market conditions while rewarding 
-            risk reduction and community contributions
+              Dynamically adjust risk scores based on user behavior and market
+              conditions while rewarding risk reduction and community
+              contributions
             </p>
           </div>
         </div>

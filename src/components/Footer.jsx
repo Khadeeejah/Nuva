@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="mb-20 md:mb-0">
         <img src={logo} alt="Amanah Logo" />
         <p className="hidden font-extralight text-neutral-200 md:pt-4 md:block lg:text-sm">
-          nنva. All Rights Reserved © 2024
+          Nuva. All Rights Reserved © 2024
         </p>
       </div>
       <div className="grid gap-4 place-content-center">
@@ -37,7 +37,7 @@ const Footer = () => {
         </ul>
       </div>
       <p className="text-xs font-extralight text-neutral-200 pt-16 md:hidden">
-        nنva. All Rights Reserved © 2024
+        Nuva. All Rights Reserved © 2024
       </p>
     </div>
   );
