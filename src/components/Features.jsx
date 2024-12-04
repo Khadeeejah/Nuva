@@ -1,7 +1,3 @@
-import AIDriven from "../assets/svgs/AIDriven";
-import Buildings from "../assets/svgs/Buildings";
-import ELearning from "../assets/svgs/ELearning";
-
 const Features = () => {
   return (
     <div
@@ -16,10 +12,9 @@ const Features = () => {
           <span className="block"> Our Solution at a glance </span>
         </h3>
       </div>
-      <div className="mt-16 grid lg:grid-cols-3 lg:mt-20">
-        <div className="p-6 grid gap-4">
-          <AIDriven className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+      <div className="mt-16 grid gap-3 lg:mt-20">
+        <div className="flex flex-col justify-center gap-3 md:flex-row">
+          <div className="px-5 py-6 bg-black-100 flex flex-col justify-end border border-black-300 rounded-lg md:w-1/2 xl:w-2/5 xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
               Compliance Driven Digital Identity Verification
             </h4>
@@ -29,69 +24,77 @@ const Features = () => {
               during validation and regulatory audits.
             </p>
           </div>
-        </div>
-        <div className="p-6 grid gap-4">
-          <Buildings className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+          <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
               Automated Claims Processing
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Self-service Claims, AI-powered verification, automated assesment,
-              smart contract payment abd real-time updates streamling the claim
+              Self-service claims with AI verification, automated assessment,
+              smart contract payments, and real-time updates streamline the
               process.
             </p>
           </div>
+          <div className="hidden px-5 py-6 bg-black-100 border border-black-300 rounded-lg xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
+            <h4 className="text-lg font-medium xl:text-xl">
+              Fractional Ownership of Policies
+            </h4>
+            <p className="text-neutral-200 lg:pt-2">
+              Participants can own policy fractions, contribute to pools, share
+              in coverage and surplus, and earn rewards for long-term ownership
+              and community involvement.
+            </p>
+          </div>
         </div>
-        <div className="p-6 grid gap-4">
-          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+        <div className="flex flex-col gap-3 md:flex-row md:justify-center xl:hidden">
+          <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
+            <h4 className="text-lg font-medium xl:text-xl">
+              Fractional Ownership of Policies
+            </h4>
+            <p className="text-neutral-200 lg:pt-2">
+              Participants can own policy fractions, contribute to pools, share
+              in coverage and surplus, and earn rewards for long-term ownership
+              and community involvement.
+            </p>
+          </div>
+          <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
               AI-Powered WhatsApp Chatbot
             </h4>
             <p className="text-neutral-200 lg:pt-2">
               Simplify policy management and sales with our multilingual
-              chatbot. Easily browse options, get personalized quotes, apply,
-              make payments, and receive digital policy documents directly via
-              email—all through WhatsApp..
+              WhatsApp chatbot. Browse options, get quotes, apply, pay, and
+              receive digital policies via email.
             </p>
           </div>
         </div>
-        <div className="p-6 grid gap-4">
-          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+        <div className="flex flex-col justify-center gap-3 md:flex-row">
+          <div className="hidden px-5 py-6 bg-black-100 border border-black-300 rounded-lg xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
-              Fractional Ownership of Policies
+              AI-Powered WhatsApp Chatbot
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Participants can own fractions of policies, contributing to pools
-              and sharing in coverage and surplus, while earning rewards for
-              long-term ownership and community participation.
+              Simplify policy management and sales with our multilingual
+              WhatsApp chatbot. Browse options, get quotes, apply, pay, and
+              receive digital policies via email.
             </p>
           </div>
-        </div>
-        <div className="p-6 grid gap-4">
-          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+          <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:pt-6 xl:pb-12 xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
               Educational Resources
             </h4>
             <p className="text-neutral-200 lg:pt-2">
               Learn about blockchain technology and artificial intelligence
-              relating to insurance via webiners, blog post and workshops
+              relating to insurance via webinars, blog posts and workshops.
             </p>
           </div>
-        </div>
-        <div className="p-6 grid gap-4">
-          <ELearning className="*:stroke-neutral-100 w-7 h-7 lg:w-8 lg:h-8 xl:w-9 xl:h-9" />
-          <div>
+          <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-2/5 xl:pt-6 xl:pb-12 xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">
               Gamified Dynamic Risk Scoring
             </h4>
             <p className="text-neutral-200 lg:pt-2">
-              Dynamically adjust risk scores based on user behavior and market
+              Dynamically adjust risk scores based on user behaviour and market
               conditions while rewarding risk reduction and community
-              contributions
+              contributions.
             </p>
           </div>
         </div>
