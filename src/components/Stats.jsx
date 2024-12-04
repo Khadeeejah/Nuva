@@ -1,3 +1,5 @@
+import CountUp from "react-countup";
+
 const Stats = () => {
   return (
     <div className="px-4 text-sm py-20 md:px-10 lg:px-20 lg:py-20 lg:text-base xl:py-32 xl:px-[7.5rem]">
@@ -15,21 +17,39 @@ const Stats = () => {
         <div className="flex justify-between md:px-12 lg:px-16 xl:px-24">
           <div className="flex flex-col justify-center items-center gap-1">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
-              20%
+              <CountUp
+                start={0}
+                end={20}
+                duration={4}
+                separator=","
+                suffix="%"
+              />
             </h3>
-            <p>Lorem ipsum dolor</p>
+            <p className="text-xs md:text-sm lg:text-base">Lorem ipsum dolor</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
-              40%
+              <CountUp
+                start={0}
+                end={52}
+                duration={4}
+                separator=","
+                suffix="%"
+              />
             </h3>
-            <p>Lorem ipsum dolor</p>
+            <p className="text-xs md:text-sm lg:text-base">Lorem ipsum dolor</p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
-              52%
+              <CountUp
+                start={0}
+                end={70}
+                duration={4}
+                separator=","
+                suffix="%"
+              />
             </h3>
-            <p>Lorem ipsum dolor</p>
+            <p className="text-xs md:text-sm lg:text-base">Lorem ipsum dolor</p>
           </div>
         </div>
       </div>
