@@ -9,15 +9,15 @@ const Hero = () => {
             The World&apos;s Leading Ethical Insurance Technology Platform
           </h1>
           <p className="text-neutral-300 text-center text-sm md:text-base md:w-3/4 md:mx-auto lg:text-lg xl:w-3/5">
-           Redefining insurance with ethical, Sharia-compliant AI and blockchain technology.
-          
+            Redefining insurance with ethical, Sharia-compliant AI and
+            blockchain technology.
           </p>
           <button className="px-8 py-2 mx-auto flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 lg:px-12 lg:py-2.5 xl:hover:bg-primary-200">
             Get Started
           </button>
         </div>
         <div className="lg:mt-16 xl:mt-20">
-          <img src={heroImage} alt="amanah-dashboard" />
+          <img src={heroImage} alt="Nuva-dashboard" />
         </div>
       </div>
     </div>
