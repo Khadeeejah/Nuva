@@ -23,6 +23,8 @@ const Stats = () => {
                 duration={4}
                 separator=","
                 suffix="%"
+                scrollSpyOnce={true}
+                enableScrollSpy={true}
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
@@ -37,6 +39,8 @@ const Stats = () => {
                 duration={4}
                 separator=","
                 suffix="%"
+                scrollSpyOnce={true}
+                enableScrollSpy={true}
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
@@ -51,6 +55,8 @@ const Stats = () => {
                 duration={4}
                 separator=","
                 suffix="%"
+                scrollSpyOnce={true}
+                enableScrollSpy={true}
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
