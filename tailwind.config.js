@@ -31,6 +31,8 @@ export default {
       },
       boxShadow: {
         neutral: "0px 20px 40px 0px rgba(0, 0, 0, 0.10)",
+        "purplish-grayish":
+          "5px 4px 5px -2px rgba(175, 160, 253, 0.12) inset, 0px 5px 16px 0px rgba(0, 0, 0, 0.25)",
       },
     },
   },
