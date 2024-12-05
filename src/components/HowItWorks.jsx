@@ -1,7 +1,14 @@
+import { useState } from "react";
 import appDashboard from "../assets/images/app-dashboard.png";
 import signUp from "../assets/images/sign-up.png";
 
+const tabs = [
+  { id: "tab1", name: "Insurance Companies" },
+  { id: "tab2", name: "Small & Medium Enterprises" },
+];
+
 const HowItWorks = () => {
+  const [activeTab, setActiveTab] = useState("tab1");
   return (
     <div
       id="how-it-works"
@@ -15,67 +22,85 @@ const HowItWorks = () => {
           Start in 3 easy steps
         </h3>
       </div>
-      <div className="mt-12 grid lg:mt-16 lg:grid-cols-2 lg:gap-12 xl:mt-20">
-        <div className="hidden lg:flex lg:gap-4 lg:justify-center lg:items-center xl:gap-0">
-          <div className="w-[600px]">
-            <img
-              src={appDashboard}
-              alt="amanah dashboard"
-              className="rounded-tl-[50px] border border-black-300 shadow-neutral xl:w-[93%] xl:h-3/4"
-            />
-          </div>
-          <div className="grid gap-4">
-            <div className="xl:w-4/5 xl:h-4/5">
+      <div className="p-1 mt-12 mb-7 bg-black-200 border border-black-300 rounded-lg shadow-purplish-grayish flex gap-2 items-center md:w-fit md:mx-auto md:gap-4 lg:mt-14 lg:mb-20 xl:mt-16">
+        {tabs.map(({ id, name }) => (
+          <button
+            key={id}
+            className={`text-[0.845rem] p-2 rounded-md cursor-pointer ${
+              activeTab === id
+                ? "bg-primary-100 text-black-50"
+                : "text-neutral-300"
+            } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-300`}
+            onClick={() => setActiveTab(id)}
+          >
+            {name}
+          </button>
+        ))}
+      </div>
+      <div>
+        <div className="grid lg:grid-cols-2 lg:gap-12">
+          <div className="hidden lg:flex lg:gap-4 lg:justify-center lg:items-center xl:gap-0">
+            <div className="w-[600px]">
               <img
-                src={signUp}
-                alt="amanah signup"
-                className="rounded-tr-[50px] border border-black-300 shadow-neutral"
+                src={appDashboard}
+                alt="Nuva dashboard"
+                className="rounded-tl-[50px] border border-black-300 shadow-neutral xl:w-[93%] xl:h-3/4"
               />
             </div>
-            <div className="xl:w-4/5 xl:h-4/5">
-              <img
-                src={signUp}
-                alt="amanah setup"
-                className="rounded-bl-[50px] border border-black-300 shadow-neutral"
-              />
+            <div className="grid gap-4">
+              <div className="xl:w-4/5 xl:h-4/5">
+                <img
+                  src={signUp}
+                  alt="Nuva signup"
+                  className="rounded-tr-[50px] border border-black-300 shadow-neutral"
+                />
+              </div>
+              <div className="xl:w-4/5 xl:h-4/5">
+                <img
+                  src={signUp}
+                  alt="Nuva setup"
+                  className="rounded-bl-[50px] border border-black-300 shadow-neutral"
+                />
+              </div>
             </div>
           </div>
-        </div>
-        <div>
-          <div className="grid gap-4 py-8 border-b border-black-300">
-            <p className="uppercase text-sm text-neutral-300 font-extralight">
-              Step 01
-            </p>
-            <div>
-              <h4 className="text-xl font-medium">Request for a Demo</h4>
-              <p className="text-neutral-200 pt-1">
-                Get started instantly with a free account and explore your
-                options.
+          <div>
+            <div className="grid gap-4 py-8 border-b border-black-300">
+              <p className="uppercase text-sm text-neutral-300 font-extralight">
+                Step 01
               </p>
+              <div>
+                <h4 className="text-xl font-medium">Request for a Demo</h4>
+                <p className="text-neutral-200 pt-1">
+                  Get started instantly with a free account and explore your
+                  options.
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="grid gap-4 py-8 border-b border-black-300">
-            <p className="uppercase text-sm text-neutral-300 font-extralight">
-              Step 02
-            </p>
-            <div>
-              <h4 className="text-xl font-medium">Customize Your Coverage</h4>
-              <p className="text-neutral-200 pt-1">Utilize our blockchain and AI-driven features 
+            <div className="grid gap-4 py-8 border-b border-black-300">
+              <p className="uppercase text-sm text-neutral-300 font-extralight">
+                Step 02
               </p>
+              <div>
+                <h4 className="text-xl font-medium">Customize Your Coverage</h4>
+                <p className="text-neutral-200 pt-1">
+                  Utilize our blockchain and AI-driven features
+                </p>
+              </div>
             </div>
-          </div>
-          <div className="grid gap-4 py-8">
-            <p className="uppercase text-sm text-neutral-300 font-extralight">
-              Step 03
-            </p>
-            <div>
-              <h4 className="text-xl font-medium">
-                Manage and Track Your Plans
-              </h4>
-              <p className="text-neutral-200 pt-1">
-                Easily monitor your coverage, file claims, and access your
-                policy information anytime, all in one place.
+            <div className="grid gap-4 py-8">
+              <p className="uppercase text-sm text-neutral-300 font-extralight">
+                Step 03
               </p>
+              <div>
+                <h4 className="text-xl font-medium">
+                  Manage and Track Your Plans
+                </h4>
+                <p className="text-neutral-200 pt-1">
+                  Easily monitor your coverage, file claims, and access your
+                  policy information anytime, all in one place.
+                </p>
+              </div>
             </div>
           </div>
         </div>
