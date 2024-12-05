@@ -2,7 +2,7 @@ import heroImage from "../assets/images/hero-img.png";
 
 const Hero = () => {
   return (
-    <div className="px-4 pt-16 pb-20 md:px-10 lg:px-20 lg:pt-20 lg:py-40 xl:pb-44 xl:px-[7.5rem]">
+    <div className="px-4 pt-16 pb-20 md:px-10 md:pt-20 lg:px-20 lg:py-40 xl:pb-44 xl:px-[7.5rem]">
       <div className="grid gap-20">
         <div>
           <h1 className="text-3xl font-semibold text-center pb-4 leading-10 md:text-5xl md:leading-tight lg:text-[3.25rem] lg:w-3/4 lg:mx-auto xl:text-6xl xl:w-4/5 xl:leading-tight">

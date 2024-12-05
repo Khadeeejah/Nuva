@@ -26,19 +26,20 @@ const Navigation = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="px-4 pb-6 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-end backdrop-blur-md shadow-sm md:px-10 md:pt-4 lg:pt-6 lg:px-20 lg:items-center xl:px-[7.5rem]">
-      <div className="w-fit xl:-mt-3.5">
-        <img src={logo} alt="Amanah Logo" className="w-4/5 lg:w-full" />
+    <div className="px-4 pb-4 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-end backdrop-blur-md shadow-sm md:px-10 md:items-center md:pb-5 md:pt-5 lg:pt-6 lg:px-20 lg:items-center xl:px-[7.5rem]">
+      <div className="w-fit md:-mt-4 lg:-mt-5">
+        <img
+          src={logo}
+          alt="Nuva Logo"
+          className="w-4/5 md:w-[88%] lg:w-full"
+        />
       </div>
-      <div>
-        <button
-          className="cursor-pointer lg:hidden"
-          onClick={() => setOpen(true)}
-        >
+      <div className="md:hidden">
+        <button className="cursor-pointer" onClick={() => setOpen(true)}>
           <Menu />
         </button>
         <div
-          className={`pl-12 pr-6 py-6 bg-black-50 h-screen shadow-xl w-full absolute top-0 left-0 z-20 transition-transform duration-700 md:w-1/2 lg:hidden ${
+          className={`pl-12 pr-4 py-4 bg-black-50 h-screen shadow-xl w-full absolute top-0 left-0 z-20 transition-transform duration-700 ${
             open ? "-translate-x-0" : "-translate-x-[1000px]"
           }`}
         >
@@ -61,14 +62,14 @@ const Navigation = () => {
           </div>
         </div>
       </div>
-      <ul className="hidden lg:flex lg:gap-4 lg:font-normal xl:gap-6">
+      <ul className="hidden md:flex md:gap-4 lg:font-normal xl:gap-6">
         {navLinks?.map(({ route, name }) => (
           <li key={name}>
             <a href={route}>{name}</a>
           </li>
         ))}
       </ul>
-      <button className="hidden lg:block px-6 py-2 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 xl:hover:bg-primary-200">
+      <button className="hidden py-2 text-black-50 bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:px-4 md:block lg:font-medium lg:px-6 xl:hover:bg-primary-200">
         Get Started
       </button>
     </div>
