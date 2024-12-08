@@ -143,10 +143,9 @@ const HowItWorks = () => {
                     Step 01
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">Request for a sign up</h4>
+                    <h4 className="text-xl font-medium">Set Up Your Profile</h4>
                     <p className="text-neutral-200 pt-1">
-                      Get started instantly with a free account and explore your
-                      options.
+                    Register on the Nuva platform with your business credentials
                     </p>
                   </div>
                 </div>
@@ -156,10 +155,10 @@ const HowItWorks = () => {
                   </p>
                   <div>
                     <h4 className="text-xl font-medium">
-                      Customize Your Coverage
+                    Request and Buy Policies
                     </h4>
                     <p className="text-neutral-200 pt-1">
-                      Utilize our blockchain and AI-driven features
+                    Select and buy the policy that fits your business requirements directly through our AI and Blockchain tools.
                     </p>
                   </div>
                 </div>
@@ -169,11 +168,10 @@ const HowItWorks = () => {
                   </p>
                   <div>
                     <h4 className="text-xl font-medium">
-                      Manage and Track Your Plans
+                    Collaborate and Buy from the Policy Pool
                     </h4>
                     <p className="text-neutral-200 pt-1">
-                      Easily monitor your coverage, file claims, and access your
-                      policy information anytime, all in one place.
+                    Participate in pooled policies that distribute risks and rewards among SMEs with similar needs.
                     </p>
                   </div>
                 </div>

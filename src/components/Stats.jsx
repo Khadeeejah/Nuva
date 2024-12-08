@@ -19,7 +19,7 @@ const Stats = () => {
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
               <CountUp
                 start={0}
-                end={20}
+                end={60}
                 duration={4}
                 separator=","
                 suffix="%"
@@ -28,14 +28,14 @@ const Stats = () => {
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-              Lorem ipsum dolor
+            Slow Claims Processing and Low Customer Satisfaction
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
               <CountUp
                 start={0}
-                end={52}
+                end={50}
                 duration={4}
                 separator=","
                 suffix="%"
@@ -44,14 +44,14 @@ const Stats = () => {
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-              Lorem ipsum dolor
+            Limited SME Access to Insurance
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
               <CountUp
                 start={0}
-                end={70}
+                end={18}
                 duration={4}
                 separator=","
                 suffix="%"
@@ -60,7 +60,7 @@ const Stats = () => {
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-              Lorem ipsum dolor
+            Opportunity for Ethical and Efficient Solutions
             </p>
           </div>
         </div>
