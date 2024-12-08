@@ -6,7 +6,7 @@ const Stats = () => {
       <p className="font-extralight italic text-center lg:text-lg">
         Did you know that?
       </p>
-      <div className="mt-10 grid gap-20 md:px-16 lg:px-28 xl:px-40">
+      <div className="mt-10 grid gap-20 md:px-10 lg:px-18 xl:px-32">
         <h4 className="text-lg font-medium text-center leading-7 md:text-xl md:leading-8 xl:text-2xl xl:leading-10">
           A 2023 PwC report highlights that 60% of insurers face slow claims
           processing and low customer satisfaction. Scalability, Opaque Policy
@@ -14,7 +14,7 @@ const Stats = () => {
           transparency in the insurance sector, leaving a gap for ethical,
           efficient, and compliant solutions.
         </h4>
-        <div className="flex justify-between md:px-12 lg:px-16 xl:px-24">
+        <div className="flex justify-between md:px-10 lg:px-12 xl:px-24">
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
             <h3 className="text-4xl text-primary-100 font-medium lg:text-5xl xl:text-6xl">
               <CountUp
@@ -27,8 +27,8 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-            Slow Claims Processing
+            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+              Slow Claims Processing
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
@@ -43,8 +43,8 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-            Limited SME Access to Insurance
+            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+              Limited SME Access to Insurance
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
@@ -59,8 +59,8 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-            Opportunity for Ethical  Solutions
+            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+              Opportunity for Ethical Solutions
             </p>
           </div>
         </div>

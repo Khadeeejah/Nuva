@@ -15,4 +15,10 @@
   body {
     @apply bg-black-50 text-neutral-50 font-light;
   }
+
+  @media (max-width: 350px) {
+    html {
+      font-size: 14px;
+    }
+  }
 }
