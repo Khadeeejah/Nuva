@@ -26,7 +26,7 @@ const HowItWorks = () => {
                 tabIndex === 0
                   ? "bg-primary-100 text-black-50"
                   : "text-neutral-300"
-              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-300`}
+              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
               Insurance Companies
             </Tab>
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                 tabIndex === 1
                   ? "bg-primary-100 text-black-50"
                   : "text-neutral-300"
-              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-300`}
+              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
               Small & Medium Enterprises
             </Tab>
