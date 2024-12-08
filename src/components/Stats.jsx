@@ -28,7 +28,7 @@ const Stats = () => {
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-            Slow Claims Processing and Low Customer Satisfaction
+            Slow Claims Processing
             </p>
           </div>
           <div className="flex flex-col justify-center items-center gap-1 lg:gap-2">
@@ -60,7 +60,7 @@ const Stats = () => {
               />
             </h3>
             <p className="text-neutral-100 text-xs md:text-sm lg:text-base">
-            Opportunity for Ethical and Efficient Solutions
+            Opportunity for Ethical  Solutions
             </p>
           </div>
         </div>
