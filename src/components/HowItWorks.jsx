@@ -111,7 +111,74 @@ const HowItWorks = () => {
             </div>
           </TabPanel>
           <TabPanel>
-            <h2>Step 2</h2>
+          <div className="grid lg:grid-cols-2 lg:gap-12">
+              <div className="hidden lg:flex lg:gap-4 lg:justify-center lg:items-center xl:gap-0">
+                <div className="w-[600px]">
+                  <img
+                    src={appDashboard}
+                    alt="Nuva dashboard"
+                    className="rounded-tl-[50px] border border-black-300 shadow-neutral xl:w-[93%] xl:h-3/4"
+                  />
+                </div>
+                <div className="grid gap-4">
+                  <div className="xl:w-4/5 xl:h-4/5">
+                    <img
+                      src={signUp}
+                      alt="Nuva signup"
+                      className="rounded-tr-[50px] border border-black-300 shadow-neutral"
+                    />
+                  </div>
+                  <div className="xl:w-4/5 xl:h-4/5">
+                    <img
+                      src={signUp}
+                      alt="Nuva setup"
+                      className="rounded-bl-[50px] border border-black-300 shadow-neutral"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className="grid gap-4 py-8 border-b border-black-300">
+                  <p className="uppercase text-sm text-neutral-300 font-extralight">
+                    Step 01
+                  </p>
+                  <div>
+                    <h4 className="text-xl font-medium">Request for a sign up</h4>
+                    <p className="text-neutral-200 pt-1">
+                      Get started instantly with a free account and explore your
+                      options.
+                    </p>
+                  </div>
+                </div>
+                <div className="grid gap-4 py-8 border-b border-black-300">
+                  <p className="uppercase text-sm text-neutral-300 font-extralight">
+                    Step 02
+                  </p>
+                  <div>
+                    <h4 className="text-xl font-medium">
+                      Customize Your Coverage
+                    </h4>
+                    <p className="text-neutral-200 pt-1">
+                      Utilize our blockchain and AI-driven features
+                    </p>
+                  </div>
+                </div>
+                <div className="grid gap-4 py-8">
+                  <p className="uppercase text-sm text-neutral-300 font-extralight">
+                    Step 03
+                  </p>
+                  <div>
+                    <h4 className="text-xl font-medium">
+                      Manage and Track Your Plans
+                    </h4>
+                    <p className="text-neutral-200 pt-1">
+                      Easily monitor your coverage, file claims, and access your
+                      policy information anytime, all in one place.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </TabPanel>
         </Tabs>
       </div>
