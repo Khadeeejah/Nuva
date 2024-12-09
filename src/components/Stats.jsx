@@ -6,7 +6,7 @@ const Stats = () => {
       <p className="font-extralight italic text-center lg:text-lg">
         Did you know that?
       </p>
-      <div className="mt-10 grid gap-20 md:px-10 lg:px-18 xl:px-32">
+      <div className="mt-7 grid gap-20 md:mt-10 md:px-10 lg:px-18 xl:px-32">
         <h4 className="text-lg font-medium text-center leading-7 md:text-xl md:leading-8 xl:text-2xl xl:leading-10">
           A 2023 PwC report highlights that 60% of insurers face slow claims
           processing and low customer satisfaction. Scalability, Opaque Policy

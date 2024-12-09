@@ -12,7 +12,7 @@ const Footer = () => {
           Nuva. All Rights Reserved © 2024
         </p>
       </div>
-      <div className="grid gap-4 place-content-center">
+      <div className="grid gap-6 place-content-center md:gap-4">
         <div className="flex gap-7">
           <button className="w-10 h-10 rounded-full flex justify-center items-center bg-black-300 border border-black-400 cursor-pointer transition duration-200 xl:hover:bg-black-200">
             <Phone />
@@ -24,7 +24,7 @@ const Footer = () => {
             <Mail />
           </button>
         </div>
-        <ul className="flex gap-4 text-neutral-100">
+        <ul className="flex gap-4 ml-2.5 text-neutral-100 md:ml-0">
           <li>
             <a href="#">Home</a>
           </li>
