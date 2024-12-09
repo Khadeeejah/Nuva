@@ -27,7 +27,7 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+            <p className="text-neutral-100 text-center font-normal text-[0.7rem] leading-4 md:text-sm lg:text-base">
               Slow Claims Processing
             </p>
           </div>
@@ -43,7 +43,7 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+            <p className="text-neutral-100 text-center font-normal text-[0.7rem] leading-4 md:text-sm lg:text-base">
               Limited SME Access to Insurance
             </p>
           </div>
@@ -59,7 +59,7 @@ const Stats = () => {
                 enableScrollSpy={true}
               />
             </h3>
-            <p className="text-neutral-100 text-center text-[0.7rem] leading-4 md:text-sm lg:text-base">
+            <p className="text-neutral-100 text-center font-normal text-[0.7rem] leading-4 md:text-sm lg:text-base">
               Opportunity for Ethical Solutions
             </p>
           </div>

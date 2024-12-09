@@ -24,7 +24,7 @@ const Footer = () => {
             <Mail />
           </button>
         </div>
-        <ul className="flex gap-4 ml-2.5 text-neutral-100 md:ml-0">
+        <ul className="flex gap-4 ml-0.5 text-neutral-100 md:ml-0">
           <li>
             <a href="#">Home</a>
           </li>

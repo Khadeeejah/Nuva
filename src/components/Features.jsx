@@ -12,7 +12,7 @@ const Features = () => {
           <span className="block"> Our Solution at a glance </span>
         </h3>
       </div>
-      <div className="mt-16 grid gap-3 lg:mt-20">
+      <div className="mt-8 grid gap-3 md:mt-10 lg:mt-20">
         <div className="flex flex-col justify-center gap-3 md:flex-row">
           <div className="px-5 py-6 bg-black-100 flex flex-col justify-end border border-black-300 rounded-lg md:w-1/2 xl:w-2/5 xl:h-[394px]">
             <h4 className="text-lg font-medium xl:text-xl">

@@ -50,13 +50,13 @@ const Navigation = () => {
             <ul className="pt-10 grid gap-8">
               {navLinks?.map(({ route, name }) => (
                 <li key={name} onClick={() => setOpen(false)}>
-                  <a href={route} className="text-2xl">
+                  <a href={route} className="text-2xl font-normal">
                     {name}
                   </a>
                 </li>
               ))}
             </ul>
-            <button className="w-full px-6 py-3 text-black-50 font-semibold bg-primary-100 cursor-pointer rounded-lg mt-24 text-lg">
+            <button className="w-full px-6 py-3 text-black-50 font-normal bg-primary-100 cursor-pointer rounded-lg mt-24 text-lg">
               Get Started
             </button>
           </div>
