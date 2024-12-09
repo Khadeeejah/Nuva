@@ -12,10 +12,10 @@ const HowItWorks = () => {
     >
       <div className="grid gap-6 lg:gap-8">
         <div className="px-3 py-1 bg-primary-200 w-fit rounded-lg mx-auto">
-          <p className="text-xs text-black-100 lg:text-sm">How it Works</p>
+          <p className="text-xs text-black-100 lg:text-sm">How It Works</p>
         </div>
         <h3 className="text-[1.75rem] font-semibold text-center leading-8 md:w-3/5 md:mx-auto lg:text-[2rem] xl:w-2/5">
-          Start in 3 easy steps
+          Start in 3 Easy Steps
         </h3>
       </div>
       <div>
@@ -24,7 +24,7 @@ const HowItWorks = () => {
             <Tab
               className={`text-[0.845rem] p-2 rounded-md font-normal cursor-pointer outline-none ${
                 tabIndex === 0
-                  ? "bg-primary-100 text-black-50"
+                  ? "bg-primary-100 text-black-50 font-medium"
                   : "text-neutral-300"
               } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-50 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
@@ -33,7 +33,7 @@ const HowItWorks = () => {
             <Tab
               className={`text-[0.845rem] p-2 rounded-md font-normal cursor-pointer outline-none ${
                 tabIndex === 1
-                  ? "bg-primary-100 text-black-50"
+                  ? "bg-primary-100 text-black-50 font-medium"
                   : "text-neutral-300"
               } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-50 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
