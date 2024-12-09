@@ -20,7 +20,7 @@ const HowItWorks = () => {
       </div>
       <div>
         <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-          <TabList className="p-1 mt-12 mb-7 bg-black-200 border border-black-300 rounded-lg shadow-purplish-grayish flex gap-2 items-center md:w-fit md:mx-auto md:gap-4 lg:mt-14 lg:mb-20 xl:mt-16">
+          <TabList className="p-1 mt-8 mb-7 bg-black-200 border border-black-300 rounded-lg shadow-purplish-grayish flex gap-2 items-center md:mt-12 md:w-fit md:mx-auto md:gap-4 lg:mt-14 lg:mb-20 xl:mt-16">
             <Tab
               className={`text-[0.845rem] p-2 rounded-md cursor-pointer outline-none ${
                 tabIndex === 0
