@@ -12,7 +12,7 @@ const Hero = () => {
             Redefining insurance with ethical, Sharia-compliant AI and
             blockchain technology.
           </p>
-          <button className="px-8 py-2.5 mx-auto text-sm flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:text-base lg:px-12 lg:py-2.5 xl:hover:bg-primary-200">
+          <button className="px-8 py-2.5 mx-auto text-sm flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:text-base lg:px-12 xl:py-3 xl:hover:bg-primary-50">
             Get Started
           </button>
         </div>

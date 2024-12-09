@@ -69,7 +69,7 @@ const Navigation = () => {
           </li>
         ))}
       </ul>
-      <button className="hidden py-2 text-black-50 bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:px-4 md:block md:font-medium lg:px-6 xl:hover:bg-primary-200">
+      <button className="hidden py-2 text-black-50 bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:px-4 md:block md:font-medium lg:px-6 xl:hover:bg-primary-50">
         Get Started
       </button>
     </div>

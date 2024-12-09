@@ -26,7 +26,7 @@ const HowItWorks = () => {
                 tabIndex === 0
                   ? "bg-primary-100 text-black-50"
                   : "text-neutral-300"
-              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
+              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-50 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
               Insurance Companies
             </Tab>
@@ -35,7 +35,7 @@ const HowItWorks = () => {
                 tabIndex === 1
                   ? "bg-primary-100 text-black-50"
                   : "text-neutral-300"
-              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-200 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
+              } md:text-sm lg:text-base lg:px-3 xl:hover:bg-primary-50 xl:hover:text-black-50 xl:transition xl:duration-[400ms]`}
             >
               Small & Medium Enterprises
             </Tab>
@@ -111,7 +111,7 @@ const HowItWorks = () => {
             </div>
           </TabPanel>
           <TabPanel>
-          <div className="grid lg:grid-cols-2 lg:gap-12">
+            <div className="grid lg:grid-cols-2 lg:gap-12">
               <div className="hidden lg:flex lg:gap-4 lg:justify-center lg:items-center xl:gap-0">
                 <div className="w-[600px]">
                   <img
@@ -145,7 +145,8 @@ const HowItWorks = () => {
                   <div>
                     <h4 className="text-xl font-medium">Set Up Your Profile</h4>
                     <p className="text-neutral-200 pt-1">
-                    Register on the Nuva platform with your business credentials
+                      Register on the Nuva platform with your business
+                      credentials
                     </p>
                   </div>
                 </div>
@@ -155,10 +156,11 @@ const HowItWorks = () => {
                   </p>
                   <div>
                     <h4 className="text-xl font-medium">
-                    Request and Buy Policies
+                      Request and Buy Policies
                     </h4>
                     <p className="text-neutral-200 pt-1">
-                    Select and buy the policy that fits your business requirements directly through our AI and Blockchain tools.
+                      Select and buy the policy that fits your business
+                      requirements directly through our AI and Blockchain tools.
                     </p>
                   </div>
                 </div>
@@ -168,10 +170,11 @@ const HowItWorks = () => {
                   </p>
                   <div>
                     <h4 className="text-xl font-medium">
-                    Collaborate and Buy from the Policy Pool
+                      Collaborate and Buy from the Policy Pool
                     </h4>
                     <p className="text-neutral-200 pt-1">
-                    Participate in pooled policies that distribute risks and rewards among SMEs with similar needs.
+                      Participate in pooled policies that distribute risks and
+                      rewards among SMEs with similar needs.
                     </p>
                   </div>
                 </div>
