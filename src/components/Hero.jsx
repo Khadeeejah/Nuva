@@ -2,8 +2,8 @@ import heroImage from "../assets/images/hero-img.png";
 
 const Hero = () => {
   return (
-    <div className="px-4 pt-16 pb-20 md:px-10 md:pt-20 lg:px-20 lg:py-40 xl:pb-44 xl:px-[7.5rem]">
-      <div className="grid gap-20">
+    <div className="px-4 pt-24 pb-20 md:px-10 md:pt-24 lg:px-20 lg:py-40 xl:pb-44 xl:px-[7.5rem]">
+      <div className="grid gap-14 md:gap-20">
         <div>
           <h1 className="text-3xl font-semibold text-center pb-4 leading-10 md:text-5xl md:leading-tight lg:text-[3.25rem] lg:w-3/4 lg:mx-auto xl:text-6xl xl:w-4/5 xl:leading-tight">
             The World&apos;s Leading Ethical Insurance Technology Platform
@@ -12,7 +12,7 @@ const Hero = () => {
             Redefining insurance with ethical, Sharia-compliant AI and
             blockchain technology.
           </p>
-          <button className="px-8 py-2 mx-auto flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 lg:px-12 lg:py-2.5 xl:hover:bg-primary-200">
+          <button className="px-8 py-2.5 mx-auto text-sm flex mt-8 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg transition duration-300 md:text-base lg:px-12 xl:py-3 xl:hover:bg-primary-50">
             Get Started
           </button>
         </div>
