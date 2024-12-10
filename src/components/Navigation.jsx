@@ -27,13 +27,13 @@ const Navigation = () => {
 
   return (
     <div className="px-4 pb-4 sticky top-0 left-0 w-full bg-[#1a1a1acc] flex justify-between items-end backdrop-blur-md shadow-sm md:px-10 md:items-center md:pb-5 md:pt-5 lg:pt-6 lg:px-20 lg:items-center xl:px-[7.5rem]">
-      <div className="w-fit md:-mt-4 lg:-mt-5">
+      <a href="/" className="block w-fit md:-mt-4 lg:-mt-5">
         <img
           src={logo}
           alt="Nuva Logo"
           className="w-4/5 md:w-[88%] lg:w-full"
         />
-      </div>
+      </a>
       <div className="md:hidden">
         <button className="cursor-pointer" onClick={() => setOpen(true)}>
           <Menu />
