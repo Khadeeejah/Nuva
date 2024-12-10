@@ -1,6 +1,21 @@
 import heroImage from "../assets/images/hero-img.png";
+import heroImageMobile from "../assets/images/hero-img-mobile.png";
+
+import { useEffect, useState } from "react";
 
 const Hero = () => {
+  const [width, setWidth] = useState(0);
+
+  const handleResize = () => {
+    setWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="px-4 pt-24 pb-20 md:px-10 md:pt-24 lg:px-20 lg:py-40 xl:pb-44 xl:px-[7.5rem]">
       <div className="grid gap-14 md:gap-20">
@@ -16,8 +31,11 @@ const Hero = () => {
             Get Started
           </button>
         </div>
-        <div className="lg:mt-16 xl:mt-20">
-          <img src={heroImage} alt="Nuva-dashboard" />
+        <div className="mt-10 lg:mt-16 xl:mt-20">
+          <img
+            src={width > 767 ? heroImage : heroImageMobile}
+            alt="Nuva-dashboard"
+          />
         </div>
       </div>
     </div>

@@ -26,13 +26,19 @@ const Footer = () => {
         </div>
         <ul className="flex gap-4 ml-0.5 text-neutral-100 md:ml-0">
           <li>
-            <a href="#">Home</a>
+            <a href="#" className="font-normal">
+              Home
+            </a>
           </li>
           <li>
-            <a href="#about">About</a>
+            <a href="#about" className="font-normal">
+              About
+            </a>
           </li>
           <li>
-            <a href="#features">Features</a>
+            <a href="#features" className="font-normal">
+              Features
+            </a>
           </li>
         </ul>
       </div>

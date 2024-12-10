@@ -56,7 +56,7 @@ const Navigation = () => {
                 </li>
               ))}
             </ul>
-            <button className="w-full px-6 py-3 text-black-50 font-normal bg-primary-100 cursor-pointer rounded-lg mt-24 text-lg">
+            <button className="w-full px-6 py-3 text-black-50 font-medium bg-primary-100 cursor-pointer rounded-lg mt-24 text-lg">
               Get Started
             </button>
           </div>
