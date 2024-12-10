@@ -88,7 +88,7 @@ const Features = () => {
           </div>
           <div className="px-5 py-6 bg-black-100 border border-black-300 rounded-lg md:w-1/2 xl:flex xl:flex-col xl:justify-end xl:w-[30%] xl:h-[394px]">
             <h4 className="text-lg pb-1 font-medium md:pb-0 xl:text-xl">
-              AI-Powered WhatsApp Chatbot
+              AI-Powered WhatsApp Agent
             </h4>
             <p className="text-neutral-200 lg:pt-2">
               Simplify policy management and sales with our multilingual
