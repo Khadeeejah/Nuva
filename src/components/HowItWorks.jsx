@@ -20,7 +20,7 @@ const HowItWorks = () => {
       </div>
       <div>
         <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
-          <TabList className="p-1 mt-8 mb-7 bg-black-200 border border-black-300 rounded-lg shadow-purplish-grayish flex gap-2 items-center md:mt-12 md:w-fit md:mx-auto md:gap-4 lg:mt-14 lg:mb-20 xl:mt-16">
+          <TabList className="p-1 mt-8 mb-7 bg-black-200 w-fit mx-auto border border-black-300 rounded-lg shadow-purplish-grayish flex gap-2 items-center md:mt-12 md:gap-4 lg:mt-14 lg:mb-20 xl:mt-16">
             <Tab
               className={`text-[0.845rem] p-2 rounded-md font-normal cursor-pointer outline-none ${
                 tabIndex === 0
@@ -68,24 +68,26 @@ const HowItWorks = () => {
                 </div>
               </div>
               <div>
-                <div className="grid gap-4 py-8 border-b border-black-300">
+                <div className="grid gap-3 py-6 border-b border-black-300 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 01
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">Request for a Demo</h4>
+                    <h4 className="text-lg font-medium md:text-xl">
+                      Request for a Demo
+                    </h4>
                     <p className="text-neutral-200 pt-1">
                       Get started instantly with a free account and explore your
                       options.
                     </p>
                   </div>
                 </div>
-                <div className="grid gap-4 py-8 border-b border-black-300">
+                <div className="grid gap-3 py-6 border-b border-black-300 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 02
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">
+                    <h4 className="text-lg font-medium md:text-xl">
                       Customize Your Coverage
                     </h4>
                     <p className="text-neutral-200 pt-1">
@@ -93,12 +95,12 @@ const HowItWorks = () => {
                     </p>
                   </div>
                 </div>
-                <div className="grid gap-4 py-8">
+                <div className="grid gap-3 py-6 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 03
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">
+                    <h4 className="text-lg font-medium md:text-xl">
                       Manage and Track Your Plans
                     </h4>
                     <p className="text-neutral-200 pt-1">
@@ -138,24 +140,26 @@ const HowItWorks = () => {
                 </div>
               </div>
               <div>
-                <div className="grid gap-4 py-8 border-b border-black-300">
+                <div className="grid gap-3 py-6 border-b border-black-300 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 01
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">Set Up Your Profile</h4>
+                    <h4 className="text-lg font-medium md-text-xl">
+                      Set Up Your Profile
+                    </h4>
                     <p className="text-neutral-200 pt-1">
                       Register on the Nuva platform with your business
                       credentials
                     </p>
                   </div>
                 </div>
-                <div className="grid gap-4 py-8 border-b border-black-300">
+                <div className="grid gap-3 py-6 border-b border-black-300 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 02
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">
+                    <h4 className="text-lg font-medium md-text-xl">
                       Request and Buy Policies
                     </h4>
                     <p className="text-neutral-200 pt-1">
@@ -164,12 +168,12 @@ const HowItWorks = () => {
                     </p>
                   </div>
                 </div>
-                <div className="grid gap-4 py-8">
+                <div className="grid gap-3 py-6 md:py-8 md:gap-4">
                   <p className="uppercase text-sm text-neutral-300 font-extralight">
                     Step 03
                   </p>
                   <div>
-                    <h4 className="text-xl font-medium">
+                    <h4 className="text-lg font-medium md-text-xl">
                       Collaborate and Buy from the Policy Pool
                     </h4>
                     <p className="text-neutral-200 pt-1">
