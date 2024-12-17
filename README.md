@@ -5,7 +5,26 @@ Nuva is an ethical technology platform for insurance companies and SMEs that int
 - [FIGMA PROTOTYPE](https://www.figma.com/proto/sVrAr5CCQLW1UiDbm4B0xj/Nuva?page-id=1%3A5&node-id=507-39009&viewport=931%2C2083%2C0.18&t=NhBLixCHKJlpBMYM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1190%3A14732)
 
 - [Website](https://www.trynuva.ai/)
-- [White-Paper](https://khadijahsresume.notion.site/NUVA-15fc3ca6379f801c8b04ca59d7560a8e?pvs=4)  [SWC](https://swc.rs/) for Fast Refresh
+- [White-Paper](https://khadijahsresume.notion.site/NUVA-15fc3ca6379f801c8b04ca59d7560a8e?pvs=4)  
+
+
+
+[Verify Smart contract on Hscan](https://hashscan.io/testnet/contract/0.0.5282879?pf=1)
+
+[Verify Smart contract on Hscan]()
+
+
+
+
+<img width="1509" alt="Screenshot 2024-12-18 at 01 15 38" src="https://github.com/user-attachments/assets/dd334fb3-2a36-41eb-89bd-cad0112191f6" />
+
+
+
+
+
+<img width="1509" alt="Screenshot 2024-12-18 at 01 15 38" src="https://github.com/user-attachments/assets/fca023e0-f26c-4751-ad75-6df7402173c3" />
+
+
 
 Technology Used
 
