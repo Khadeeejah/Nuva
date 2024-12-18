@@ -49,5 +49,5 @@ You can watch a walkthrough of the demo and an explanation of the product [**her
 ### **Test the AI Agent**
 
 Test the AI agent for policy sales management below:
-(https://t.me/Nuva_AI_bot)
+[Nuva AI Agent](https://t.me/Nuva_AI_bot)
 
