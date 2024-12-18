@@ -2,44 +2,52 @@
 
 Nuva is an ethical technology platform for insurance companies and SMEs that integrates AI and blockchain technologies to provide scalable, Sharia-compliant, and transparent insurance solutions. By leveraging RWA tokenization, smart contracts, and AI-driven fraud detection, Nuva streamlines insurance processes such as policy sales management, risk assessment, and claims automation.
 
-- [FIGMA PROTOTYPE](https://www.figma.com/proto/sVrAr5CCQLW1UiDbm4B0xj/Nuva?page-id=1%3A5&node-id=507-39009&viewport=931%2C2083%2C0.18&t=NhBLixCHKJlpBMYM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1190%3A14732)
+---
 
-- [Website](https://www.trynuva.ai/)
-- [White-Paper](https://khadijahsresume.notion.site/NUVA-15fc3ca6379f801c8b04ca59d7560a8e?pvs=4)  
+### **Resources**
 
+- [**Figma Prototype**](https://www.figma.com/proto/sVrAr5CCQLW1UiDbm4B0xj/Nuva?page-id=1%3A5&node-id=507-39009&viewport=931%2C2083%2C0.18&t=NhBLixCHKJlpBMYM-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1190%3A14732)
+- [**Website**](https://www.trynuva.ai/)
+- [**White Paper**](https://khadijahsresume.notion.site/NUVA-15fc3ca6379f801c8b04ca59d7560a8e?pvs=4)
+- [**Smart Contract on Hscan (Contract 1)**](https://hashscan.io/testnet/contract/0.0.5282879?pf=1)
+- [**Smart Contract on Hscan (Contract 2)**](https://hashscan.io/testnet/contract/0.0.5282900?pf=1)
 
+---
 
-[Verify Smart contract on Hscan](https://hashscan.io/testnet/contract/0.0.5282879?pf=1)
+### **Screenshots**
 
-[Verify Smart contract on Hscan](https://hashscan.io/testnet/contract/0.0.5282900?pf=1)
+#### Screenshot 1
+![Screenshot 1](https://github.com/user-attachments/assets/dd334fb3-2a36-41eb-89bd-cad0112191f6)
 
+#### Screenshot 2
+![Screenshot 2](https://github.com/user-attachments/assets/fca023e0-f26c-4751-ad75-6df7402173c3)
 
+---
 
+### **Technology Used**
 
-<img width="1509" alt="Screenshot 2024-12-18 at 01 15 38" src="https://github.com/user-attachments/assets/dd334fb3-2a36-41eb-89bd-cad0112191f6" />
+#### 1. **Hedera Consensus Service (HCS)**
+- **Purpose**: Decentralized event tracking and timestamping for transactions and claims to ensure transparency and immutability.
 
+#### 2. **Hedera Token Service (HTS)**
+- **Purpose**: Manages the creation and transfer of fungible and non-fungible tokens, including **fractional ownership tokens** and **reward tokens**.
 
+#### 3. **Hedera Smart Contracts (HSC)**
+- **Purpose**: Executes programmable contracts to automate claims processing, govern gamification rules, and adjust premiums based on real-time data.
 
+#### 4. **Hedera File Service (HFS)**
+- **Purpose**: Stores and manages large files such as **policy agreements**, **claim documents**, and **user profile data** in a decentralized manner.
 
+---
 
-<img width="1509" alt="Screenshot 2024-12-18 at 01 15 38" src="https://github.com/user-attachments/assets/fca023e0-f26c-4751-ad75-6df7402173c3" />
+### **Demo and Explanation**
 
+You can watch a walkthrough of the demo and an explanation of the product [**here**](https://youtu.be/KPLnP37KAm4).
 
+---
 
-Technology Used
+### **Test the AI Agent**
 
-## 1 Hedera Consensus Service (HCS
+Test the AI agent for policy sales management below:
+(https://t.me/Nuva_AI_bot)
 
-- Purpose: Decentralized event tracking and timestamping for transactions and claims to ensure transparency and immutability.
-
-### 2. Hedera Token Service (HTS)**
-
-- Purpose: Manages the creation and transfer of fungible and non-fungible tokens, including **fractional ownership tokens** and **reward tokens**.
-
-### 3. Hedera Smart Contracts (HSC)**
-
-- Purpose: Executes programmable contracts to automate claims processing, govern gamification rules, and adjust premiums based on real-time data.
-
-### 4. Hedera File Service (HFS)**
-
-- Purpose: Stores and manages large files such as **policy agreements**, **claim documents**, and **user profile data** in a decentralized manner
