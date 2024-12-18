@@ -1,7 +1,8 @@
 import { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import appDashboard from "../assets/images/app-dashboard.png";
-import signUp from "../assets/images/sign-up.png";
+import signUp from "../assets/images/signUp.png";
+import setup from "../assets/images/setup.png";
 
 const HowItWorks = () => {
   const [tabIndex, setTabIndex] = useState(0);
@@ -60,7 +61,7 @@ const HowItWorks = () => {
                   </div>
                   <div className="xl:w-4/5 xl:h-4/5">
                     <img
-                      src={signUp}
+                      src={setup}
                       alt="Nuva setup"
                       className="rounded-bl-[50px] border border-black-300 shadow-neutral"
                     />
