@@ -11,7 +11,7 @@ Nuva is an ethical technology platform for insurance companies and SMEs that int
 
 [Verify Smart contract on Hscan](https://hashscan.io/testnet/contract/0.0.5282879?pf=1)
 
-[Verify Smart contract on Hscan]()
+[Verify Smart contract on Hscan](https://hashscan.io/testnet/contract/0.0.5282900?pf=1)
 
 
 
